@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="clock.css">
+    <title>JS Clock</title>
+</head>
+<body>
+    <navbar class="navbar">
+        JS Clock 
+    </navbar>
+    <center>
+        <div class="clockContainer">
+            Current time is: <span id="time"></span>
+            <p>We will show you the time in different time zones</p>
+            <div>
+                <div class="row">
+                    <div id="time1"></div>
+                    <div class="mid"></div>
+                    <div id="time2"></div>
+                </div>
+                <br>
+                <div class="row">
+                    <div id="time3"></div>
+                    <div class="mid"></div>
+                    <div id="time4"></div>
+                </div>
+            </div>
+            <button class="primary" onclick="window.location.reload(true)">Browse Other Times</button>
+        </div>
+    </center>
+
+    <script src="clock.js"></script>
+</body> 
+</html>
