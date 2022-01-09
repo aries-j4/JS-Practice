@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="weather.css">
+  <title>JS Weather</title>
+</head>
+<body>
+  <nav>
+    <div class="left">
+      <br>
+      <h3>JS Weather</h3> 
+    </div>
+    <div class="right">
+      <input type="text" id="searchbar" placeholder="Search other locations">
+      <button id="search-btn">Search</button>
+    </div>
+  </nav>
+  <div class="container">
+    <div class="weatherContainer">
+      <center><h3 id="city">City Name, Country Name</h3></center>
+      <div class="weatherInfo">
+        <table id="weatherTable">
+          <tr>
+            <td id="temp" style="font-size: xx-large;">28 °C </td>
+          </tr>
+          <tr>
+            <td id="desc">Cloudy</td>
+          </tr>
+          <tr>
+            <td id="humidity">Humidity: 90%</td>
+          </tr>
+          <tr>
+            <td id="windSpeed">Wind Speed: 12 km/h</td>
+          </tr>
+        </table>
+        <div id="weatherPic"><img id="icon"></div>
+      </div>
+    </div>
+  </div>
+  <script src="weather.js"></script>
+</body>
+</html>
